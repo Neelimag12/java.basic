@@ -1,5 +1,7 @@
 package com.training.CG;
 
+import java.util.HashMap;
+
 public class Employee {
 	 String empId;
 	 String empName;
@@ -31,6 +33,10 @@ public class Employee {
 	}
 	public void setEmpSalary(String empSalary) {
 		this.empSalary = empSalary;
+	}
+	public HashMap calculate() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

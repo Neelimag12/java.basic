@@ -20,7 +20,7 @@ public static void main(String[] args) {
 			System.out.println("Not Really!!try again");
 		}
 			else {
-				System.out.println("Congrats!! you guessed it right in 4 attempts);
+				System.out.println("Congrats!! you guessed it right);
 				correct=true;
 		
 			}
