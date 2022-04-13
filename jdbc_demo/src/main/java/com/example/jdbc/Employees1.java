@@ -22,9 +22,9 @@ public class Employees1{
 			}
 			Statement stmt = con.createStatement();
 			
-			//createTable(stmt);
-			//addValues(stmt);
-			//	displaydetails(stmt);
+			createTable(stmt);
+			addValues(stmt);
+			displaydetails(stmt);
 
 ResultSet rs = stmt.executeQuery("Select * from EMPLOYEES1");
 			
